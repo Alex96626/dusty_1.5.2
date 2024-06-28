@@ -25,6 +25,8 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #262d33;
+
+  overflow-wrap: anywhere;
 }
 
 .recommendations__list {
@@ -57,7 +59,7 @@
 
 .recommendations__link {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 10px;
 
   padding: 17px 0 17px 0;
